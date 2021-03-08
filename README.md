@@ -44,13 +44,14 @@ What does Metricbeat record?
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name                 | Function   | IP Address              | Operating System |
-|----------------------|------------|-------------------------|------------------|
-| Jump-Box-Provisioner | Gateway    | 10.0.0.5/52.186.141.254 | Linux            |
-| Web-1                | Web Server | 10.0.0.8                | Linux            |
-| Web-2                | Web Server | 10.0.0.9                | Linux            |
-| Web-3                | Web Server | 10.0.0.10               | Linux            |
-| Elk-Stack            | ELK Server | 10.1.0.4/40.75.24.104   | Linux            |
+| Name                 | Function       | IP Address              | Operating System |
+|----------------------|----------------|-------------------------|------------------|
+| Jump-Box-Provisioner | Gateway        | 10.0.0.5/52.186.141.254 | Linux            |
+| Web-1                | Web Server     | 10.0.0.8                | Linux            |
+| Web-2                | Web Server     | 10.0.0.9                | Linux            |
+| Web-3                | Web Server     | 10.0.0.10               | Linux            |
+| Elk-Stack            | ELK Server     | 10.1.0.4/40.75.24.104   | Linux            |
+| Work Station         | Access Control | Public IP               | Linux            |
 
 ### Access Policies
 
