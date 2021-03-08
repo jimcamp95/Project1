@@ -2,14 +2,17 @@
 
 The files in this repository were used to configure the network depicted below.
 
-(Diagrams/network-diagram.png)
+[(Diagrams/network-diagram.png)](url)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
-(Ansible/DVWA-playbook.yml)
-(Ansible/Elk-playbook.yml)
-(Ansible/filebeat-playbook.yml)
-(Ansible/metricbeat-playbook.yml)
+[(Ansible/DVWA-playbook.yml)](url)
+
+[(Ansible/Elk-playbook.yml)](url)
+
+[(Ansible/filebeat-playbook.yml)](url)
+
+[(Ansible/metricbeat-playbook.yml)](url)
 
 This document contains the following details:
 - Description of the Topologu
@@ -111,7 +114,7 @@ SSH into the control node and follow the steps below:
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?
-- The file is filebeat-playbook.yml. You can find it at (Ansible/filebeat-playbook.yml)
+- The file is filebeat-playbook.yml. You can find it at [(Ansible/filebeat-playbook.yml)](url)
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - You need to update the hosts file to include the IP address for the specific group you want the playbook to run on. To specify which group you want a playbook to run on, you simply need to go into the filebeat-playbook.yml and on the 3rd line change the hosts to the specfic group you want it run on.
 - _Which URL do you navigate to in order to check that the ELK server is running?
