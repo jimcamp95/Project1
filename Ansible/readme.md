@@ -9,4 +9,3 @@ Within this Folder, you will find various different playbooks used to help recre
 - To setup a server/servers with Filebeat on it, you can use pre-configurated playbook found [here](url)
 
 - To setup a server/servers with Metricbeat on it, you can use pre-configurated playbook found [here](url)
-- https://github.com/jimcamp95/Project1/blob/main/Ansible/metricbeat-playbook.yml
