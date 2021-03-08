@@ -27,16 +27,16 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly accessible, in addition to restricting traffic to the network.
 
 What aspect of security do load balancers protect?
-Load balancers are extremly important to make sure no single server bears too much demand. This also helps protect again DDoS attacks.
+- Load balancers are extremly important to make sure no single server bears too much demand. This also helps protect again DDoS attacks.
 
 What is the advantage of a jumpbox?
-This cloud network has a jump box that admins can connect to to do work on any of the webservers. The advantage of a jumpbox is that it makes it easier to manage devices and adds an extra layer of security to ensure there won't be any unauthroized access.
+- This cloud network has a jump box that admins can connect to to do work on any of the webservers. The advantage of a jumpbox is that it makes it easier to manage devices and adds an extra layer of security to ensure there won't be any unauthroized access.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 What does Filebeat watch for?
-Filebeat watchs log files or locations that is set by the user, collects log events and forwards them to either Elasticsearch or Logstash
+- Filebeat watchs log files or locations that is set by the user, collects log events and forwards them to either Elasticsearch or Logstash
 What does Metricbeat record?
-Metricbeat takes the metrics and statistics that are collected and sends them to either Elasticsearch or Loagstash. The destination is determined by the user. 
+- Metricbeat takes the metrics and statistics that are collected and sends them to either Elasticsearch or Loagstash. The destination is determined by the user. 
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
