@@ -39,7 +39,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 What does Filebeat watch for?
 - Filebeat watchs log files or locations that is set by the user, collects log events and forwards them to either Elasticsearch or Logstash
 What does Metricbeat record?
-- Metricbeat takes the metrics and statistics that are collected and sends them to either Elasticsearch or Loagstash. The destination is determined by the user. 
+- Metricbeat takes the metrics and statistics that are collected and sends them to either Elasticsearch or Logstash. The destination is determined by the user. 
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
