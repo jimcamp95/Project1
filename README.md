@@ -69,11 +69,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name                 | Public Accessible | Allowed IP Addresses  |
 |----------------------|-------------------|-----------------------|
-| Jump-Box-Provisioner | Yes               | Workstation Public IP |
+| Jump-Box-Provisioner | Yes (SSH)         | Workstation Public IP |
 | Web-1                | No                | 10.0.0.5              |
 | Web-2                | No                | 10.0.0.5              |
 | Web-3                | No                | 10.0.0.5              |
-| Elk-Stack            | Yes               | Workstation Public IP |
+| Elk-Stack            | Yes (HTTP)        | Workstation Public IP |
 
 ### Elk Configuration
 
