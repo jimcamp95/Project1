@@ -69,11 +69,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name                 | Public Accessible | Allowed IP Addresses  |
 |----------------------|-------------------|-----------------------|
-| Jump-Box-Provisioner | No                | Workstation Public IP |
+| Jump-Box-Provisioner | Yes               | Workstation Public IP |
 | Web-1                | No                | 10.0.0.5              |
 | Web-2                | No                | 10.0.0.5              |
 | Web-3                | No                | 10.0.0.5              |
-| Elk-Stack            | No                | Workstation Public IP |
+| Elk-Stack            | Yes               | Workstation Public IP |
 
 ### Elk Configuration
 
@@ -108,7 +108,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the /etc/ansible/files/filebeat-config.yml file to /etc/filebeat/filebeat-playbook.yml.
+- Copy the playbook files file to the ansible docker container /etc/ansible.
 - Update the filebeat-config.yml file to include...
 - The IP address of the Elk Server
 - Run the playbook, and navigate to System logs in Kibana to check that the installation worked as expected.
